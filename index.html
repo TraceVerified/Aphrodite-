@@ -226,6 +226,45 @@
             <a href="#" class="hover:text-[#008080]">Global Archive</a>
         </div>
     </footer>
+<section id="portal" class="py-20 px-10 bg-black border-t border-zinc-900">
+    <div class="max-w-xl mx-auto">
+        <h3 class="font-display italic text-2xl text-[#008080] mb-6 text-center">Project Verification Portal</h3>
+        <p class="text-[10px] text-zinc-500 uppercase tracking-[0.2em] mb-10 text-center">Proof of Progress Entry</p>
+        
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6">
+            <div>
+                <label class="text-[9px] uppercase tracking-widest text-zinc-400 block mb-2">Project Identifier</label>
+                <input type="text" name="project_name" required placeholder="e.g. Nakuru Pilot 01" 
+                       class="w-full bg-transparent border-b border-zinc-800 py-3 text-xs focus:outline-none focus:border-[#008080] transition-colors text-white">
+            </div>
+            
+            <div>
+                <label class="text-[9px] uppercase tracking-widest text-zinc-400 block mb-2">Current Location (Geotag)</label>
+                <input type="text" name="location" required placeholder="GPS Coordinates or Area" 
+                       class="w-full bg-transparent border-b border-zinc-800 py-3 text-xs focus:outline-none focus:border-[#008080] transition-colors text-white">
+            </div>
 
+            <div>
+                <label class="text-[9px] uppercase tracking-widest text-zinc-400 block mb-2">Status Update</label>
+                <select name="status" class="w-full bg-black border-b border-zinc-800 py-3 text-xs focus:outline-none focus:border-[#008080] text-white">
+                    <option>Ongoing - On Track</option>
+                    <option>Stalled - Action Required</option>
+                    <option>Verification Pending</option>
+                    <option>Milestone Completed</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="text-[9px] uppercase tracking-widest text-zinc-400 block mb-2">Verification Notes</label>
+                <textarea name="notes" rows="3" placeholder="Describe progress..." 
+                          class="w-full bg-transparent border-b border-zinc-800 py-3 text-xs focus:outline-none focus:border-[#008080] transition-colors text-white"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-4 mt-6 border border-[#008080] text-[#008080] text-[10px] uppercase tracking-[0.3em] hover:bg-[#008080] hover:text-white transition-all duration-500">
+                Submit Verified Progress
+            </button>
+        </form>
+    </div>
+</section>
 </body>
 </html>
