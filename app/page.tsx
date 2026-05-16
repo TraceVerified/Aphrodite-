@@ -7,7 +7,7 @@ import Working from "./_components/landing/Working";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen bg-background text-foreground">
       <main>
         <Navbar />
         <Hero />

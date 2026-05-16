@@ -90,6 +90,9 @@
   --gradient-subtle: linear-gradient(180deg, oklch(0.99 0.005 200) 0%, oklch(0.95 0.02 195) 100%);
   --shadow-elegant: 0 20px 60px -20px color-mix(in oklab, var(--primary) 35%, transparent);
   --shadow-glow: 0 0 80px color-mix(in oklab, var(--primary-glow) 40%, transparent);
+  --hero-background: linear-gradient(135deg, oklch(0.18 0.045 200) 0%, oklch(0.23 0.07 196) 48%, oklch(0.16 0.035 205) 100%);
+  --hero-aura: radial-gradient(circle at 18% 18%, oklch(0.66 0.14 188 / 0.32), transparent 36%), radial-gradient(circle at 82% 12%, oklch(0.47 0.12 198 / 0.28), transparent 34%), linear-gradient(180deg, oklch(1 0 0 / 0.08), transparent 36%);
+  --hero-grid: linear-gradient(to right, oklch(1 0 0 / 0.08) 1px, transparent 1px), linear-gradient(to bottom, oklch(1 0 0 / 0.06) 1px, transparent 1px);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
