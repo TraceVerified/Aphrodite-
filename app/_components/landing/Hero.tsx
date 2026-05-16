@@ -107,7 +107,7 @@ export default function Hero() {
             Trace is a global project transparency platform that creates immutable proof of every phase, timeline, budget and contribution — replacing "trust me" with "see for yourself."
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
-            <Link href="/login">
+            <Link href="/auth">
               <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 h-12 px-6 shadow-[var(--shadow-elegant)]">
                 Start tracing <ArrowRight className="ml-2 h-4 w-4" />
               </Button>

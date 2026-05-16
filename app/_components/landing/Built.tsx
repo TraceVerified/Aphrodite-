@@ -11,7 +11,7 @@ export default function Built() {
         <p className="mt-4 text-lg text-primary-foreground/80 max-w-2xl mx-auto">
           Every milestone verifiable. Every report effortless. Every project a permanent asset.
         </p>
-        <Link href="/login">
+        <Link href="/auth">
           <Button size="lg" className="mt-8 bg-primary-foreground text-primary hover:bg-primary-foreground/90 h-12 px-8">
             Get started with Trace <ArrowRight className="ml-2 h-4 w-4" />
           </Button>

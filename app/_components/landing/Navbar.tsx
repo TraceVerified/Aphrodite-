@@ -18,8 +18,8 @@ export default function Navbar() {
         <a href="#who" className="hover:text-foreground transition">Who it&apos;s for</a>
       </nav>
       <div className="flex items-center gap-2">
-        <Link href="/login"><Button variant="ghost" size="sm">Sign in</Button></Link>
-        <Link href="/login"><Button size="sm" className="bg-[image:var(--gradient-primary)] shadow-[var(--shadow-elegant)]">Get started</Button></Link>
+        <Link href="/auth"><Button variant="ghost" size="sm">Sign in</Button></Link>
+        <Link href="/auth"><Button size="sm" className="bg-[image:var(--gradient-primary)] shadow-[var(--shadow-elegant)]">Get started</Button></Link>
       </div>
     </div>
   </header>;
