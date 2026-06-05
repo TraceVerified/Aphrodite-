@@ -123,9 +123,9 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               <DropdownMenuContent align="end" className="w-56">
                 <DropdownMenuLabel>
                   <div className="flex flex-col">
-                    <span className="text-sm font-medium">Jane Doe</span>
+                    <span className="text-sm font-medium">juliet wamboi</span>
                     <span className="text-xs text-muted-foreground">
-                      jane@trace.app
+                      juliet@trace.app
                     </span>
                   </div>
                 </DropdownMenuLabel>

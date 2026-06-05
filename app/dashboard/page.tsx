@@ -123,7 +123,7 @@ export default function DashboardPage() {
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-bold tracking-tight">
-          Welcome back, Jane
+          Welcome back, Juliet
         </h1>
         <p className="text-sm text-muted-foreground">
           Here&apos;s what&apos;s happening across your projects.

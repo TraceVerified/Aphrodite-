@@ -112,7 +112,7 @@ export default function SettingsPage() {
                   </Label>
                   <Input
                     id="fullName"
-                    defaultValue="Jane Doe"
+                    defaultValue="juliet wamboi"
                   />
                 </div>
 
@@ -122,7 +122,7 @@ export default function SettingsPage() {
                   </Label>
                   <Input
                     id="email"
-                    defaultValue="jane@trace.app"
+                    defaultValue="juliet@trace.app"
                   />
                 </div>
 
