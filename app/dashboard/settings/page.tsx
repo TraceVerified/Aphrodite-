@@ -112,7 +112,7 @@ export default function SettingsPage() {
                   </Label>
                   <Input
                     id="fullName"
-                    defaultValue="Juliet Waboi"
+                    defaultValue="Juliet Wambui"
                   />
                 </div>
 

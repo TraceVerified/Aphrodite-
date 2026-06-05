@@ -96,7 +96,7 @@ export default function PortfolioPage() {
               </Avatar>
 
               <div className="pb-2">
-                <h2 className="text-xl font-bold">Juliet Waboi</h2>
+                <h2 className="text-xl font-bold">Juliet Wambui</h2>
 
                 <p className="text-sm text-muted-foreground">
                   Construction Lead • Nairobi, KE
